@@ -1,0 +1,11 @@
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+  }
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #3f3f3f;
+}

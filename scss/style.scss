@@ -1,5 +1,5 @@
+
 @import "./reset";
-@import "../node_modules/bootstrap/scss/bootstrap";
 @import "./variables";
 @import "./body";
 @import "./header";
@@ -8,8 +8,8 @@
 @import "./contacto";
 @import "./carouselIndex";
 @import "./galeria";
-@import "/responsive";
-
+@import "./responsive";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 
 

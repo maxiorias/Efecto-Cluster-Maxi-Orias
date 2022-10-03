@@ -1,10 +1,8 @@
 
 #menu a{
- font-size: 18px;
- font-weight: bold;
- color: $colorPrincipal
+ @include menu;
+ color: map-get($paleta-colores, "colorPrincipal");
 }
 #menu button {
-    font-size: 18px;
-    font-weight: bold;
+  @include menu;
 }

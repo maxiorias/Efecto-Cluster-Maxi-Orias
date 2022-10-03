@@ -1,0 +1,26 @@
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin menu {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@mixin footerLetras {
+    font-size: 16px;
+	text-transform: capitalize;
+    font-weight: 500;
+}
+
+@mixin span1 {
+    width: 2px;
+    height: 100%;
+}
+
+@mixin span2 {
+    width: 100%;
+    height: 2px;
+}
